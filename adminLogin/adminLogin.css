@@ -1,0 +1,151 @@
+@media screen and (max-width: 867px) {
+.boss {
+  display: flex;
+  }
+ .image-div{ 
+  opacity: 60%;
+  background-Size: cover;
+  background-Position: center;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-Items: center;
+  justify-Content: center;
+ }
+ .admin-login-div-parent {
+  height: 100vh !important;
+  width: 100vw !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: column !important;
+ }
+}
+/* image div*/
+@media screen and (min-width: 868px) {
+.image-div {
+  opacity: 60%;
+  background-Size: cover;
+  background-Position: center;
+  height: 100vh;
+  width: 50vw;
+  display: flex;
+  align-Items: center;
+  justify-Content: center;
+}
+}
+/* login width-height */
+.boss {
+  display: flex;
+  background: #1A2035;
+}
+.admin-login-div-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50vw;
+}
+.admin-login-div {
+  width: 361px;
+}
+.text-or-logo {
+  font-size: 40px;
+  transition: 0.5s ease-out;
+}.text-or-logo:hover {
+  color: red;
+  transition: 0.5 ease-in;
+}
+/* fonts size&color */
+.shesvla-text {
+  font-weight: 700;
+  font-size: 20px;
+  color: #ECECEC;
+  margin-bottom: 48px;
+}
+        /* მომხმარებელი */
+.momxmarebeli-text {
+  font-weight: 300;
+  font-size: 16px;
+  color: #ECECEC;
+  margin-bottom: 12px;
+}
+.momxmarebeli-input {
+  width: 100%;
+  height: 46px;
+  border-radius: 10px;
+  background: #273250;
+  outline: none;
+  padding-left: 14px;
+  margin-bottom: 22px;
+}.momxmarebeli-input:focus {
+  color: red;
+}
+        /* პაროლი */
+.parolebi-texts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 300;
+  font-size: 16px;
+  color: #ECECEC;
+  margin-bottom: 12px;
+}.dagaviwyda-paroli-text {
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.5s ease-out
+}.dagaviwyda-paroli-text:hover {
+  color: red;
+  transition: 0.5s ease-in;
+}
+.paroli-input {
+  width: 100%;
+  height: 46px;
+  border-radius: 10px;
+  background: #273250;
+  outline: none;
+  padding-left: 14px;
+  margin-bottom: 12px;
+}.paroli-input:focus {
+  color: red;
+}
+.password-eye {
+  display: flex;
+  justify-content: end;
+}
+.eye-icon {
+  cursor: pointer;
+  position: absolute;
+  margin-top: 10px;
+  margin-right: 15px;
+}.eye-icon:hover {
+  opacity: 50%;
+}
+        /* checkbox-დამახსოვრება */
+.checkbox-damaxsovreba {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  cursor: pointer;
+  max-width: 150px;
+  margin-bottom: 40px;
+  transition: 0.5s ease-out
+}.checkbox-damaxsovreba:hover {
+  color: red;
+  transition: 0.5s ease-in;
+}
+       /* შესვლა btn */
+.shesvla-btn {
+  width: 100%;
+  height: 46px;
+  background: #0C54B2;
+  border-radius: 5px;
+  outline: none;
+  transition: 0.5s ease-out
+}.shesvla-btn:hover {
+  background-color: #0571ff;
+  transition: 0.5s ease-in;
+}
